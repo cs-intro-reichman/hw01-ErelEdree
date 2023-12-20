@@ -3,6 +3,11 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
+
+		int a = Integer.valueOf(args[0]);
+		int b = Integer.valueOf(args[1]);
+		int c = a + b;
+		System.out.println(a + " + " + b + " = " + c);
 	}
+
 }
